@@ -57,6 +57,6 @@ lamp 2>&1 | tee -a /root/lamp.log
 
 cd /data/www/default
 
-wget -q wget http://install.cmpanel.redelin.com/admin.zip
-unzip -o admin.zip
-rm -f admin.zip
+wget -q wget http://install.cmpanel.redelin.com/redelin.zip
+unzip -o redelin.zip
+rm -f redelin.zip

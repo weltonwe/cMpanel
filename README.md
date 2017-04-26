@@ -43,8 +43,8 @@ If your server system: CentOS
 ```bash
 yum -y install wget screen unzip
 wget --no-check-certificate -O lamp.zip https://github.com/weltonwe/cMpanel/archive/master.zip
-unzip master.zip
-cd lamp-master
+unzip cMpanel-master.zip
+cd cMpanel-master
 chmod +x *.sh
 screen -S lamp
 ./lamp.sh

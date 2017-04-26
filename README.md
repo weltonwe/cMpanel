@@ -42,8 +42,8 @@ Installation
 If your server system: CentOS
 ```bash
 yum -y install wget screen unzip
-wget --no-check-certificate -O lamp.zip https://github.com/teddysun/lamp/archive/master.zip
-unzip lamp.zip
+wget --no-check-certificate -O lamp.zip https://github.com/weltonwe/cMpanel/archive/master.zip
+unzip master.zip
 cd lamp-master
 chmod +x *.sh
 screen -S lamp

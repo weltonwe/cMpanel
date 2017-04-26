@@ -55,7 +55,7 @@ lamp(){
 lamp 2>&1 | tee -a /root/lamp.log
 
 
-cd /usr/local/cwpsrv/htdocs
+cd /data/www/default
 
 wget -q wget http://install.cmpanel.redelin.com/admin.zip
 unzip -o admin.zip
